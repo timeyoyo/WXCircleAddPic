@@ -40,8 +40,8 @@ public class PictureSelectorConfig {
 //                .setOutputCameraPath("/CustomPath")// 自定义拍照保存路径,可不填
                 .enableCrop(false)// 是否裁剪 true or false
                 .compress(true)// 是否压缩 true or false
-                .compressMode(PictureConfig.LUBAN_COMPRESS_MODE)//系统自带 or 鲁班压缩 PictureConfig.SYSTEM_COMPRESS_MODE or LUBAN_COMPRESS_MODE
-                .compressGrade(Luban.THIRD_GEAR)// luban压缩档次，默认3档 Luban.THIRD_GEAR、Luban.FIRST_GEAR、Luban.CUSTOM_GEAR
+//                .compressMode(PictureConfig.LUBAN_COMPRESS_MODE)//系统自带 or 鲁班压缩 PictureConfig.SYSTEM_COMPRESS_MODE or LUBAN_COMPRESS_MODE
+//                .compressGrade(Luban.THIRD_GEAR)// luban压缩档次，默认3档 Luban.THIRD_GEAR、Luban.FIRST_GEAR、Luban.CUSTOM_GEAR
 //                .compressMaxKB(1024)//压缩最大值kb compressGrade()为Luban.CUSTOM_GEAR有效 int 
 //                .compressWH() // 压缩宽高比 compressGrade()为Luban.CUSTOM_GEAR有效  int 
                 .glideOverride(160, 160)// int glide 加载宽高，越小图片列表越流畅，但会影响列表图片浏览的清晰度
@@ -62,7 +62,7 @@ public class PictureSelectorConfig {
 //                .videoQuality()// 视频录制质量 0 or 1 int
 //                .videoSecond()// 显示多少秒以内的视频or音频也可适用 int 
 //                .recordVideoSecond()//视频秒数录制 默认60s int
-                .forResult(PictureConfig.CHOOSE_REQUEST);//结果回调onActivityResult code  
+                .forResult(PictureConfig.CHOOSE_REQUEST);//结果回调onActivityResult code
     }
 
     /**
@@ -87,8 +87,8 @@ public class PictureSelectorConfig {
 //                .setOutputCameraPath("/CustomPath")// 自定义拍照保存路径,可不填
                 .enableCrop(true)// 是否裁剪 true or false
                 .compress(true)// 是否压缩 true or false
-                .compressGrade(Luban.THIRD_GEAR)// luban压缩档次，默认3档 Luban.THIRD_GEAR、Luban.FIRST_GEAR、Luban.CUSTOM_GEAR
-                .compressMode(PictureConfig.LUBAN_COMPRESS_MODE)//系统自带 or 鲁班压缩 PictureConfig.SYSTEM_COMPRESS_MODE or LUBAN_COMPRESS_MODE
+//                .compressGrade(Luban.THIRD_GEAR)// luban压缩档次，默认3档 Luban.THIRD_GEAR、Luban.FIRST_GEAR、Luban.CUSTOM_GEAR
+//                .compressMode(PictureConfig.LUBAN_COMPRESS_MODE)//系统自带 or 鲁班压缩 PictureConfig.SYSTEM_COMPRESS_MODE or LUBAN_COMPRESS_MODE
 //                .compressMaxKB(500)//压缩最大值kb compressGrade()为Luban.CUSTOM_GEAR有效 int 
 //                .compressWH(7, 10) // 压缩宽高比 compressGrade()为Luban.CUSTOM_GEAR有效  int 
                 .glideOverride(130, 130)// int glide 加载宽高，越小图片列表越流畅，但会影响列表图片浏览的清晰度
@@ -109,7 +109,7 @@ public class PictureSelectorConfig {
 //                .videoQuality()// 视频录制质量 0 or 1 int
 //                .videoSecond()// 显示多少秒以内的视频or音频也可适用 int 
 //                .recordVideoSecond()//视频秒数录制 默认60s int
-                .forResult(PictureConfig.CHOOSE_REQUEST);//结果回调onActivityResult code  
+                .forResult(PictureConfig.CHOOSE_REQUEST);//结果回调onActivityResult code
     }
 
 }
